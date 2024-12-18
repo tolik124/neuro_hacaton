@@ -98,4 +98,4 @@ predictions = (predictions > 0.5).astype(int)
 # Print some predictions
 print("Predictions (first 10):", predictions[:10].flatten())
 print("True labels (first 10):", y_test[:10])
-model.save("neiro.keras")
+model.save("neiro.h5")
